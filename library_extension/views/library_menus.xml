@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_library_book_category" model="ir.actions.act_window">
+        <field name="name">Book Categories</field>
+        <field name="res_model">library.book.category</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_library_book_category" name="Book Category" parent="library.library_menu_main" sequence="2" action="action_library_book_category"/>
+</odoo>
